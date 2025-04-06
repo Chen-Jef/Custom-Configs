@@ -3,6 +3,7 @@
     "alias": "",
     "description": "自定义配置",
     "type": "library",
+    "version": "1.0.0",
     "keywords": ["dcat-admin", "extension"],
     "homepage": "https://github.com/jef/custom-configs",
     "license": "MIT",
@@ -14,7 +15,7 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "dcat/laravel-admin": "~2.0"
+        "dcat/laravel-admin": "*"
     },
     "autoload": {
         "psr-4": {
